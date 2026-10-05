@@ -1,9 +1,9 @@
-import React from "react";
+import Profile2 from "@/features/profile/components/Profile";
 
 const Profile = () => {
   return (
     <div>
-      <Profile />
+      <Profile2 />
     </div>
   );
 };

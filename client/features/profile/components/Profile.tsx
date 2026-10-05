@@ -5,9 +5,9 @@ import { useParams } from "next/navigation";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-export default function Profile() {
-  const router = useRouter();
-  const params = useParams();
+export default function Profile2() {
+  // const router = useRouter();
+  // const params = useParams();
 
   const [name, setName] = useState("");
   const [rustdeskId, setRustdeskId] = useState("");
